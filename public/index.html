@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-g">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✅ ZenFlow Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> ZenFlow</h1>
+        <p>Enter a complex task and let AI break it down for you.</p>
+        
+        <div class="input-area">
+            <input type="text" id="task-input" placeholder="e.g., Plan a birthday party...">
+            <button id="submit-btn">Decompose</button>
+        </div>
+        
+        <div id="loading" class="hidden">Thinking... 🤔</div>
+        
+        <div class="results-area">
+            <h2 id="results-title" class="hidden">Your Action Plan:</h2>
+            <ul id="subtask-list"></ul>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

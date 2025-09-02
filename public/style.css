@@ -1,0 +1,99 @@
+/* style.css */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #769acb;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    background: rgb(249, 250, 239);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+p {
+    text-align: center;
+    color: #7f8c8d;
+    margin-bottom: 25px;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#task-input {
+    flex-grow: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#submit-btn {
+    padding: 12px 20px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#submit-btn:hover {
+    background-color: #2980b9;
+}
+
+#loading {
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 18px;
+    padding: 20px;
+}
+
+#subtask-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#subtask-list li {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#subtask-list li .task-name {
+    font-weight: 500;
+}
+
+#subtask-list li .task-time {
+    background-color: #bdc3c7;
+    color: #2c3e50;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
