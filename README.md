@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/12febf94-4859-4832-9fdc-a3ebe32235a1
 # zenflow-ai-todo
 Of course. Here is a complete README.md file for your ZenFlow project. You can create a new file named README.md in the root of your zenflow project folder and paste this content into it.
 
@@ -99,3 +101,14 @@ You should see a confirmation message in your terminal: ZenFlow server listening
 Open the application:
 Open your favorite web browser and navigate to http://localhost:3000.
 You can now start breaking down your tasks with AI!
+
+
+<img width="1252" height="495" alt="Screenshot 2025-09-02 153616" src="https://github.com/user-attachments/assets/b97b48ff-c9f4-46cf-b1f4-56fbabce0d21" />
+
+
+<img width="847" height="618" alt="Screenshot 2025-09-02 153643" src="https://github.com/user-attachments/assets/695efb61-af54-46be-b67b-913d342b6375" />
+
+
+
+
+
